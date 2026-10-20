@@ -1,0 +1,47 @@
+body {
+  margin: 20px;
+  background: black;
+  color: white;
+  font-family: Tahoma, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  background: linear-gradient(pink, purple);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#canvas {
+  margin: 20px auto;
+}
+
+canvas {
+  display: block;
+  border: 3px solid blue;
+}
+
+#drawingTools,
+#buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 12px auto;
+}
+
+button {
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 20px;
+  background: linear-gradient(to right, purple, magenta, pink);
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.slider {
+  margin-left: 5px;
+}
